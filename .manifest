@@ -1,0 +1,34 @@
+{
+  "devMode": true,
+  "version": "1.0.3",
+  "name": "GoLangInstaller",
+  "identifier": "com.koding.apps.golanginstaller",
+  "path": "~/Applications/GoLangInstaller.kdapp",
+  "homepage": "https://github.com/deltasquare4/GoLangInstaller.kdapp",
+  "author": "Rakshit Menpara",
+  "repository": "git://github.com/deltasquare4/GoLangInstaller.kdapp.git",
+  "description": "Installs Go language (http://golang.org/) tools on your koding instance.",
+  "category": "language",
+  "source": {
+    "blocks": {
+      "app": {
+        "files": [
+          "./app/settings.coffee",
+          "./app/models/install.coffee",
+          "./app/views/main.coffee",
+          "./app/views/install.coffee",
+          "./index.coffee"
+        ]
+      }
+    },
+    "stylesheets": [
+      "./resources/style.css"
+    ]
+  },
+  "options": {
+    "type": "tab"
+  },
+  "icns": {
+    "128": "./resources/icon.128.png"
+  }
+}
